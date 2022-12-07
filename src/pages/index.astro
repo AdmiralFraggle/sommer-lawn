@@ -1,0 +1,42 @@
+---
+import { SEO } from 'astro-seo'
+import Header from '../components/header.astro'
+import Hero from '../components/hero.astro'
+import Features from '../components/features.astro'
+import FindOutMore from '../components/findoutmore.astro'
+// import LatestArticles from '../components/latestarticles.astro'
+import CTA from '../components/cta.astro'
+import Footer from '../components/footer.astro'
+
+import OGImage from '../images/undraw/undraw_design_inspiration_fmjm.png'
+
+const ogimage = {
+  src: OGImage,
+  width: 1342,
+  height: 1024,
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO
+      title="hello-astro"
+      description="An Astro starter for corporate/marketing/blog websites."
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body>
+    <Header />
+    <Hero />
+    <Features />
+    <FindOutMore />
+    <!-- <LatestArticles /> -->
+    <CTA />
+    <div class="p-24 md:p-12 bg-white" />
+    <Footer />
+  </body>
+</html>
