@@ -35,7 +35,7 @@ import { Icon } from 'astro-icon'
           document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML =
             document.querySelectorAll('#lunrsearchresults ul')[0]
               .innerHTML +
-            '<li class="-m-3 p-3 flex items-start rounded-lg hover:bg-purple-200 dark:hover:bg-purple-900"><a href="' +
+            '<li class="-m-3 p-3 flex items-start rounded-lg hover:bg-sky-200 dark:hover:bg-sky-900"><a href="' +
             url +
             '"><p class="text-base font-medium text-gray-900 dark:text-gray-100">' +
             doc.title +
@@ -59,7 +59,7 @@ import { Icon } from 'astro-icon'
         <input
           type="search"
           x-model="searchText"
-          class="form-control relative flex-auto min-w-0 block max-w-xs w-full px-3 py-1.5 text-base font-normal text-gray-500 bg-white dark:text-gray-300 dark:bg-gray-900 bg-clip-padding border border-solid border-purple-300 dark:border-purple-700 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-purple-500 dark:focus:text-gray-100 dark:focus:border-purple-600 focus:outline-none"
+          class="form-control relative flex-auto min-w-0 block max-w-xs w-full px-3 py-1.5 text-base font-normal text-gray-500 bg-white dark:text-gray-300 dark:bg-gray-900 bg-clip-padding border border-solid border-sky-300 dark:border-sky-700 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-sky-500 dark:focus:text-gray-100 dark:focus:border-sky-600 focus:outline-none"
           id="lunrsearch"
           name="q"
           maxlength="255"
@@ -69,7 +69,7 @@ import { Icon } from 'astro-icon'
           aria-describedby="button-addon2"
         />
         <button
-          class="btn inline-block px-2 py-2 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out items-center"
+          class="btn inline-block px-2 py-2 bg-sky-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out items-center"
           type="button"
           name="search"
           id="button-addon2"
@@ -142,7 +142,7 @@ import { Icon } from 'astro-icon'
             >
               <button
                 type="button"
-                class="rounded-md text-purple-300 hover:text-pink-300 focus:outline-none focus:ring-2 focus:ring-white"
+                class="rounded-md text-sky-300 hover:text-pink-300 focus:outline-none focus:ring-2 focus:ring-white"
                 x-on:click="searchResults = false"
               >
                 <span class="sr-only">Close panel</span>
