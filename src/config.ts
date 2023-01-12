@@ -25,8 +25,8 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'Sommer Lawn & Landscape',
+  description: 'Quality & Reliable Service',
   author: {
     name: 'Chris Tham',
     twitter: '@chris1tham',
@@ -93,10 +93,11 @@ export const DefaultImage = '../images/undraw/undraw_my_feed.png'
 
 export const NavigationLinks = [
   { name: 'Home', href: '' },
-  { name: 'About', href: 'about' },
+ // { name: 'Gallery', href: 'about' },
   { name: 'Contact', href: 'contact' },
-  { name: 'Blog', href: 'blog' },
-  { name: 'Docs', href: 'doc/introduction' },
+  {name: 'Gallery', href: 'gallery'}
+  // { name: 'Blog', href: 'blog' },
+  // { name: 'Docs', href: 'doc/introduction' },
 ]
 
 export const CategoryDetail = [

@@ -4,10 +4,11 @@ import type { Frontmatter } from '../config'
 import { SiteMetadata } from '../config'
 import Base from '../layouts/base.astro'
 import Hero from '../components/hero.astro'
-import Features from '../components/features.astro'
+import Features from '../components/services.astro'
 import FindOutMore from '../components/findoutmore.astro'
 import LatestArticles from '../components/latestarticles.astro'
 import CTA from '../components/cta.astro'
+import Services from '../components/services.astro'
 
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
@@ -31,9 +32,6 @@ const latestPosts = posts
 
 <Base frontmatter={frontmatter}>
   <Hero />
-  <Features />
+  <Services />
   <FindOutMore />
-  <LatestArticles posts={latestPosts} />
-  <CTA />
-  <div class="p-24 md:p-12 bg-white dark:bg-black"></div>
 </Base>

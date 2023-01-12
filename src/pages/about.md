@@ -1,13 +1,15 @@
 ---
 layout: ../layouts/page.astro
-title: About
-description: Description of Hello Astro Starter
+title: Gallery
+description: Some examples of our work!
 publishDate: '2022-08-08T00:00:00.000Z'
 coverSVG: ../svg/undraw/undraw_about_me.svg
 socialImage: ../images/undraw/undraw_about_me.png
+gallery: ../components/gallery.astro
 ---
 
 This is starter template for a full featured marketing and blog website based on the following:
+
 
 - [Astro](https://astro.build/) as a modern static site generator
 - [TypeScript](https://www.typescriptlang.org/)
