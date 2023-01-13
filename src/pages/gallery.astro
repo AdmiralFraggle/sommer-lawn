@@ -5,6 +5,7 @@ import Map from '../components/map.astro'
 import PageHero from '../components/pagehero.astro'
 import { SiteMetadata } from '../config'
 import HeroImg from '../components/heroimg.astro'
+import Carousel from './carousel.astro'
 
 const frontmatter = {
   title: 'Gallery',
@@ -26,10 +27,10 @@ const frontmatter = {
 </script>
 
 <Base frontmatter={frontmatter}>
-  </header>
+
   <main>
     <section class="mb-20 text-gray-800 dark:text-gray-100 mx-auto max-w-7xl">
-      
+  
 <div class="bg-sky-100 dark:bg-sky-900">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
@@ -39,7 +40,6 @@ const frontmatter = {
       <div
         class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"
       >
-      
         <HeroImg
         class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
         src="../images/mowing.png"

@@ -9,6 +9,8 @@ import FindOutMore from '../components/findoutmore.astro'
 import LatestArticles from '../components/latestarticles.astro'
 import CTA from '../components/cta.astro'
 import Services from '../components/services.astro'
+import Carousel from './carousel.astro'
+import Categories from './categories.astro'
 
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
@@ -42,5 +44,7 @@ const latestPosts = posts
 <Base frontmatter={frontmatter}>
   <Hero />
   <Services />
+  <Carousel />
   <FindOutMore />
+  <CTA />
 </Base>
