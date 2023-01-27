@@ -5,7 +5,6 @@ import Map from '../components/map.astro'
 import PageHero from '../components/pagehero.astro'
 import { SiteMetadata } from '../config'
 import HeroImg from '../components/heroimg.astro'
-import Carousel from './carousel.astro'
 
 const frontmatter = {
   title: 'Gallery',
@@ -16,16 +15,6 @@ const frontmatter = {
   publishDate: SiteMetadata.buildTime,
 }
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLZ7TYS7JP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FLZ7TYS7JP');
-</script>
-
 <Base frontmatter={frontmatter}>
   </header>
   <main>
