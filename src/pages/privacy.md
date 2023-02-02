@@ -13,7 +13,7 @@ You have the right to view, amend, or delete the personal information that we ho
 
 ## Personal information that we collect and why we collect it
 
-We do not collect personally identifiable information from you.
+Other than voluntary contact form submissions, we do not collect personally identifiable information from you.
 
 ### Information collected by others
 

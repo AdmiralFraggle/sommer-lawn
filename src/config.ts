@@ -48,7 +48,7 @@ export const SiteMetadata = {
   social: [
     {
       name: 'Email',
-      link: 'mailto: caydensommer@gmail.com',
+      link: 'mailto: cayden@sommerlawn.com',
       icon: 'envelope',
     },
     {
@@ -74,7 +74,7 @@ export const SiteMetadata = {
     {
       name: 'Nextdoor',
       link: '',
-      icon: 'twitter',
+      icon: 'Nextdoor',
     },
     {
       name: 'Github',
@@ -93,11 +93,12 @@ export const DefaultImage = '../images/undraw/undraw_my_feed.png'
 
 export const NavigationLinks = [
   { name: 'Home', href: '' },
- // { name: 'Gallery', href: 'about' },
+  // { name: 'Gallery', href: 'about' },
   { name: 'Contact', href: 'contact' },
-  {name: 'Gallery', href: 'gallery'}
-  // { name: 'Blog', href: 'blog' },
+  { name: 'Gallery', href: 'gallery' },
   // { name: 'Docs', href: 'doc/introduction' },
+  { name: 'Mowing', href: 'mowing' },
+  { name: 'Blog', href: 'blog' },
 ]
 
 export const CategoryDetail = [
