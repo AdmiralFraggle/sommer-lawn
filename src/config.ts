@@ -72,14 +72,14 @@ export const SiteMetadata = {
       icon: 'google',
     },
     {
-      name: 'Nextdoor',
-      link: '',
-      icon: 'Nextdoor',
+      name: 'Sign Up Form',
+      link: 'https://forms.gle/6CUFKFn2Uqyoeepu8',
+      icon: 'envelope',
     },
     {
-      name: 'Github',
+      name: 'Nexdoor Page',
       link: '',
-      icon: 'github',
+      icon: 'nextdoor',
     },
   ],
   buildTime: new Date().toString(),
@@ -95,10 +95,12 @@ export const NavigationLinks = [
   { name: 'Home', href: '' },
   // { name: 'Gallery', href: 'about' },
   { name: 'Contact', href: 'contact' },
+  {name: 'About', href: 'about'},
+  {name: 'Services', href: 'services'},
+  { name: 'Mowing', href: 'mowing' },
+  // { name: 'Blog', href: 'categories' },
   { name: 'Gallery', href: 'gallery' },
   // { name: 'Docs', href: 'doc/introduction' },
-  { name: 'Mowing', href: 'mowing' },
-  { name: 'Blog', href: 'blog' },
 ]
 
 export const CategoryDetail = [
