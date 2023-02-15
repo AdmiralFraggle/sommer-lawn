@@ -49,3 +49,4 @@ Spencer's passion for lawn care started at a young age, just like his brother Ca
 Aside from his work at Sommer Lawn & Landscape, Spencer is also an excellent student. He balances his job with his studies, always putting in the time and effort to achieve his goals. He recognizes that his education is the foundation for his future success and is determined to make the most of his high school years.
 
 In his free time, Spencer enjoys spending time with his family and friends, as well as participating in outdoor activities such as hiking and camping. He is always looking for ways to further his knowledge in the field, attending industry workshops and conferences whenever he gets the chance.
+

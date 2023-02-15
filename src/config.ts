@@ -71,11 +71,7 @@ export const SiteMetadata = {
       link: 'https://goo.gl/maps/QsHvnaMhdWEbpSJE9',
       icon: 'google',
     },
-    {
-      name: 'Sign Up Form',
-      link: 'https://forms.gle/6CUFKFn2Uqyoeepu8',
-      icon: 'envelope',
-    },
+    
     {
       name: 'Nexdoor Page',
       link: '',
