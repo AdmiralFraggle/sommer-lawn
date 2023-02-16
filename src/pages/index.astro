@@ -12,6 +12,7 @@ import Services from '../components/services.astro'
 import Carousel from './carousel.astro'
 import Categories from './categories.astro'
 import Testimonials from '../components/testimonials.astro'
+import Youtube from '../components/youtubehome.astro'
 
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
@@ -45,6 +46,7 @@ const latestPosts = posts
 <Base frontmatter={frontmatter}>
   <Hero />
   <Services />
+  <Youtube />
   <Carousel />
   <FindOutMore />
   <CTA />

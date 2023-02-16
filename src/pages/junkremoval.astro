@@ -1,0 +1,53 @@
+---
+import type { MarkdownInstance } from 'astro'
+import type { Frontmatter } from '../config'
+import { SiteMetadata } from '../config'
+import Base from '../layouts/base.astro'
+import Hero from '../components/hero.astro'
+import Features from '../components/services.astro'
+import FindOutMore from '../components/junkremoval.astro'
+import LatestArticles from '../components/latestarticles.astro'
+import CTA from '../components/cta.astro'
+import Services from '../components/services.astro'
+import Carousel from './carousel.astro'
+import Categories from './categories.astro'
+import Testimonials from '../components/testimonials.astro'
+import Youtube from '../components/youtubejunkremoval.astro'
+
+const frontmatter: Frontmatter = {
+  title: SiteMetadata.title,
+  description: SiteMetadata.description,
+  coverSVG: '../svg/undraw/undraw_design_inspiration.svg',
+  socialImage: '../images/undraw/undraw_design_inspiration.png',
+  publishDate: SiteMetadata.buildTime,
+}
+
+const posts = (await Astro.glob(
+  './blog/**/*.{md,mdx}'
+)) as MarkdownInstance<Frontmatter>[]
+const latestPosts = posts
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.publishDate).valueOf() -
+      new Date(a.frontmatter.publishDate).valueOf()
+  )
+  .filter(post => !post.frontmatter.draft)
+---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLZ7TYS7JP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLZ7TYS7JP');
+</script>
+
+<Base frontmatter={frontmatter}>
+  <FindOutMore />
+  <Youtube />
+  <br/>
+  <br/>
+  <br/>
+  <CTA />
+</Base>
