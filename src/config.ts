@@ -73,9 +73,9 @@ export const SiteMetadata = {
     },
     
     {
-      name: 'Nexdoor Page',
-      link: '',
-      icon: 'nextdoor',
+      name: 'Sign Up For Our Email Newsletter!',
+      link: '/email',
+      icon: 'envelope',
     },
   ],
   buildTime: new Date().toString(),
