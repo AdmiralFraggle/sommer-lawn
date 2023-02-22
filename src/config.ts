@@ -53,7 +53,7 @@ export const SiteMetadata = {
     },
     {
       name: 'Phone',
-      link: 'Tel: (913) 999-4115',
+      link: 'Tel: (913) 225-7717',
       icon: 'telephone',
     },
     {
