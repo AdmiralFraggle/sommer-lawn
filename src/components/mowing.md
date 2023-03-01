@@ -44,4 +44,4 @@ Contact us today to schedule your professional mowing service and experience the
 6. The Option To Pay With A Credit/Debit Card & Even Set Up Auto Pay. 
 
 ### Learn More About Our Billing Process:
-<a href="https://youtu.be/8MQy5iki0Bg?t=42"> <img src="@astroimage/images/mowingthumbnail.png?f=png&w=1182&h=616&href=%2F%40astroimage%2Fimages%2Fmowingthumbnail.png" alt="drawing" width="900"/> </a>
+<a href="https://youtu.be/8MQy5iki0Bg?t=42"> <img src="/assets/mowingthumbnail.e0eec6d0_ZVGnCy.png" alt="drawing" width="900"/> </a>
