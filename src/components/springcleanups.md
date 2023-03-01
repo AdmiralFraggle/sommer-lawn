@@ -27,5 +27,5 @@ Contact us today to schedule your spring cleanup service and experience the diff
 ## Why Sommer Lawn?
 A short message from the owner explaining Sommer Lawn's spring cleaning service:
 
-<a href="https://youtu.be/6Sg1GYTO1YM"> <img src="/assets/springcleanupsthumbnail.01702b20_ZkT1CL.png" alt="drawing" width="900"/> </a>
+<a href="https://youtu.be/rO_Dfi4OqHo"> <img src="/assets/springcleanupsthumbnail.01702b20_ZkT1CL.png" alt="drawing" width="900"/> </a>
 [https://youtu.be/6Sg1GYTO1YM](https://youtu.be/6Sg1GYTO1YM)
