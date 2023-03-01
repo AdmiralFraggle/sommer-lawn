@@ -13,6 +13,7 @@ import Carousel from './carousel.astro'
 import Categories from './categories.astro'
 import Testimonials from '../components/testimonials.astro'
 import Youtube from '../components/youtube.astro'
+import Mowing from '../components/mowing.md'
 
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
@@ -46,5 +47,6 @@ const latestPosts = posts
 <Base frontmatter={frontmatter}>
   <FindOutMore />
   <Carousel />
+  <Mowing />
   <CTA />
 </Base>
