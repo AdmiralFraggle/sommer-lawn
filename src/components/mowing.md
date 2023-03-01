@@ -38,7 +38,7 @@ Contact us today to schedule your professional mowing service and experience the
 ### Some things that set us apart:
 1. Fully Licensed & Insured.
 2. Professionally Trianed, English Speaking Staff.
-3. Clean & Professional Trucks.
+3. Clean & Professional Trucks, Equipment, and Uniforms.
 4. Commercial Grade Mowers With Very Sharp Blades.
 5. Quality Standards Of Service, Communications, Reliability, and Speed.
 6. The Option To Pay With A Credit/Debit Card & Even Set Up Auto Pay. 
