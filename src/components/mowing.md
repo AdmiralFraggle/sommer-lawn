@@ -33,22 +33,15 @@ Contact us today to schedule your professional mowing service and experience the
 
 
 ## What Sets Us Apart
-<img src="https://cdn.pixabay.com/photo/2017/10/02/04/00/fence-2807821_1280.jpg" alt="drawing" width="200"/>
+<img src="https://www.sommerlawn.com/assets/profile.4d428247_1DIloc.png" alt="drawing" width="800"/>
 
-Mulch is a simple yet effective way to enhance the appearance and health of your landscape beds. Made of various organic materials like wood chips, leaves, and bark, mulch provides a host of benefits that help keep your plants healthy, your soil fertile, and your garden looking beautiful.
+### Some things that set us apart:
+1. Fully Licensed & Insured.
+2. Professionally Trianed, English Speaking Staff.
+3. Clean & Professional Trucks.
+4. Commercial Grade Mowers With Very Sharp Blades.
+5. Quality Standards Of Service, Communications, Reliability, and Speed.
+6. The Option To Pay With A Credit/Debit Card & Even Set Up Auto Pay. 
 
-Here are some of the top reasons why mulch is essential for your landscape beds:
-
-Moisture Retention: Mulch helps to retain moisture in the soil by reducing evaporation and preventing water runoff. This is particularly beneficial during hot, dry weather when plants can become stressed and wilted.
-
-Weed Control: Mulch helps to suppress weed growth by blocking sunlight and inhibiting their germination. This reduces the amount of time and effort required to maintain your landscape beds.
-
-Soil Fertility: As mulch decomposes, it releases nutrients into the soil, promoting healthy plant growth. This natural process also improves soil structure, aeration, and drainage.
-
-Pest Control: Mulch can help deter pests from damaging your plants by creating a barrier between the soil and the plant. This helps prevent soil-borne diseases and insect infestations.
-
-Aesthetics: Mulch adds an attractive and uniform appearance to your landscape beds. It creates a natural contrast with your plants and can be customized to match your garden's color scheme.
-
-At Sommer Lawn & Landscape, we understand the importance of maintaining healthy and beautiful landscape beds. Our professional mulch installation service is designed to provide your plants with the nutrients and protection they need to thrive. Contact us today to schedule a free consultation and experience the benefits of our mulch installation service.
-
-<img src="https://cdn.pixabay.com/photo/2015/12/20/00/51/mulch-1100555_1280.jpg" alt="drawing" width="200"/>
+### Learn More About Our Billing Process:
+<a href="https://youtu.be/8MQy5iki0Bg?t=42"> <img src="@astroimage/images/mowingthumbnail.png?f=png&w=1182&h=616&href=%2F%40astroimage%2Fimages%2Fmowingthumbnail.png" alt="drawing" width="900"/> </a>
