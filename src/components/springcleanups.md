@@ -18,7 +18,7 @@ As the winter season comes to an end, it's time to start thinking about getting 
 3. **Small Tree Removal:** Dead or dying trees can be dangerous and create an unsightly environment. Our spring cleanup service includes the removal of small trees that are no longer healthy or pose a safety hazard.
 4. **Landscape Bed Cleaning:** Our team will remove any debris, weeds, or dead plants from your landscape beds, ensuring that your plants have the space and nutrients they need to thrive.
 <br>
-<img src="assets/springcleanuptruck.b59fe750_1dCB2X.png" alt="drawing" width="800" />
+<img src="/assets/springcleanuptruck.b59fe750_1dCB2X.png" alt="drawing" width="800" />
 By scheduling a spring cleanup service with Sommer Lawn & Landscape, you can ensure that your property is healthy and looking its best throughout the growing season. With a focus on customer satisfaction and attention to detail, our team of experts will work hard to exceed your expectations and leave your property looking beautiful and well-maintained.
 
 Contact us today to schedule your spring cleanup service and experience the difference that Sommer Lawn & Landscape can make for your outdoor space. We look forward to working with you! (913) 225 - 7717
