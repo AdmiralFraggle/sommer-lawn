@@ -42,6 +42,6 @@ Contact us today to schedule your professional mowing service and experience the
 4. Commercial Grade Mowers With Very Sharp Blades.
 5. Quality Standards Of Service, Communications, Reliability, and Speed.
 6. The Option To Pay With A Credit/Debit Card & Even Set Up Auto Pay. 
-
 ### Learn More About Our Billing Process:
 <a href="https://youtu.be/8MQy5iki0Bg?t=42"> <img src="/assets/mowingthumbnail.e0eec6d0_ZVGnCy.png" alt="drawing" width="900"/> </a>
+### [Learn More About Why We Price The Way We Do:](https://sommerlawn.com/pricing)
