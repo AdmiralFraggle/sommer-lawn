@@ -39,4 +39,4 @@ At Sommer Lawn & Landscape, we understand that our pricing is often higher than 
 
 
 
-### Check Out Our Google and Nextdoor Business Pages To See More Reviews/Testimonials.
+### Check Out Our [Google](https://goo.gl/maps/HFEMM7ERkWsZXRas5) and [Nextdoor](https://nextdoor.com/business-profile/preview/?init_source=profile_switcher&active_page_id=50413414&profile_id=70078174) Business Pages To See More Reviews/Testimonials.
