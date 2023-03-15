@@ -7,7 +7,7 @@ coverSVG: ../svg/astro/logomark-dark.svg
 socialImage: ../images/gallery/carousel/profile.png
 ---
 # About The Team
-Sommer Lawn is dedicated to quality and reliable service and communication. Cayden Sommer started his business to fill a deep need for professional and reliable lawncare service in the Overland Park Area. We also love to empower our workers by investing in their skills and character.
+Sommer Lawn is dedicated to quality and reliable service and communication. Cayden Sommer started his business to fill a deep need for professional and reliable lawncare service in the Overland Park Area. We also love to empower our workers by investing in their skills and character. Interested in joinging the team? [click here to fill out an online application](https://sommerlawn.com/jobs)
 <br>
 <img src="https://www.sommerlawn.com/assets/family.cb5f66c0_293G3m.png" alt="drawing" width="800"/>
 
