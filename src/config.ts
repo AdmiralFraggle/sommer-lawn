@@ -97,6 +97,7 @@ export const NavigationLinks = [
   // { name: 'Blog', href: 'categories' },
   { name: 'Gallery', href: 'gallery' },
   // { name: 'Docs', href: 'doc/introduction' },
+  //{name: 'Apply', href: 'jobs'},
 ]
 
 export const CategoryDetail = [
