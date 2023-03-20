@@ -13,7 +13,7 @@ Sommer Lawn is dedicated to quality and reliable service and communication. Cayd
 
 ## Cayden:
 #### Owner
-<img src="https://www.sommerlawn.com/assets/cayden.77349521_ZPToM6.png" alt="drawing" width="200"/>
+<img src="https://www.sommerlawn.com/assets/cayden2.37323618_1x9Byb.png" alt="drawing" width="300"/>
 
 # 
 Cayden has always had an entrepreneurial spirit. Cayden's love for lawn care started at a young age, as he often assisted his father with gardening and landscaping tasks. As he grew older, he realized his passion for this field and decided to turn his hobby into a thriving business. With his hard work, determination, and dedication, Cayden has built a successful lawn care company that provides top-notch services to clients in the area.
