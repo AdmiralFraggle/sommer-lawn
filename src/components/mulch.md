@@ -41,4 +41,3 @@ Aesthetics: Mulch adds an attractive and uniform appearance to your landscape be
 At Sommer Lawn & Landscape, we understand the importance of maintaining healthy and beautiful landscape beds. Our professional mulch installation service is designed to provide your plants with the nutrients and protection they need to thrive. Contact us today to schedule a free consultation and experience the benefits of our mulch installation service.
 
 <img src="https://cdn.pixabay.com/photo/2015/12/20/00/51/mulch-1100555_1280.jpg" alt="drawing" width="200"/>
-### [Learn More About Our Pricing](https://sommerlawn.com/pricing)

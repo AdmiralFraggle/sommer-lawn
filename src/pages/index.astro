@@ -13,6 +13,7 @@ import Carousel from './carousel.astro'
 import Categories from './categories.astro'
 import Testimonials from '../components/testimonials.astro'
 import Youtube from '../components/youtubehome.astro'
+import Video from '../components/video.astro'
 
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
@@ -49,4 +50,5 @@ const latestPosts = posts
   <Carousel />
   <FindOutMore />
   <CTA />
+  <Video />
 </Base>
