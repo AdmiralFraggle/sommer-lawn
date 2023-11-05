@@ -13,7 +13,7 @@ Sommer Lawn is dedicated to quality and reliable service and communication. Cayd
 
 ## Cayden:
 #### Owner
-<img src="https://www.sommerlawn.com/assets/cayden2.37323618_1x9Byb.png" alt="drawing" width="300"/>
+<img src="https://www.sommerlawn.com/assets/cayden2.37323618_1x9Byb.png" alt="Cayden" width="300"/>
 
 # 
 Cayden has always had an entrepreneurial spirit. Cayden's love for lawn care started at a young age, as he often assisted his father with gardening and landscaping tasks. As he grew older, he realized his passion for this field and decided to turn his hobby into a thriving business. With his hard work, determination, and dedication, Cayden has built a successful lawn care company that provides top-notch services to clients in the area.
@@ -26,7 +26,7 @@ Cayden is proof that with hard work and determination, anyone can turn their dre
 
 ## Elijah:
 #### Partner
-<img src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.30808-6/243683058_2346797488787150_6863461975409112788_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=_M4CaLjHs4UAX_I-NtO&_nc_ht=scontent.fmkc1-1.fna&oh=00_AfDuiPfFn8OIKyhDGPnUE0rc1A60DRy-X4BTbdaIXv2V9A&oe=63ECB7DC" alt="drawing" width="200"/>
+<img src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.30808-6/243683058_2346797488787150_6863461975409112788_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=_M4CaLjHs4UAX_I-NtO&_nc_ht=scontent.fmkc1-1.fna&oh=00_AfDuiPfFn8OIKyhDGPnUE0rc1A60DRy-X4BTbdaIXv2V9A&oe=63ECB7DC" alt="Image loading" width="200"/>
 
 Meet Elijah, a driven and dedicated partnet at Sommer Lawn & Landscape. Elijah brings his passion for the lawn care industry and his strong work ethic to his role, ensuring that every project is completed with the highest level of excellence.
 
@@ -40,7 +40,7 @@ If you're looking for a leader who brings a unique combination of passion, profe
 
 ## Spencer:
 #### Employee
-<img src="https://www.sommerlawn.com/assets/spencer.475ca811_Pacqf.png" alt="drawing" width="200"/>
+<img src="https://www.sommerlawn.com/assets/spencer.475ca811_Pacqf.png" alt="Image loading" width="200"/>
 
 Meet Spencer, a hardworking and driven high school student who is balancing his education and a part-time job at Sommer Lawn & Landscape. Despite his young age, Spencer is already setting his sights on his future, working hard to save up for a car and college.
 

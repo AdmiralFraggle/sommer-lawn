@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/page.astro
-title: Spring Cleanups
+title: Leaf Removal
 description:
 publishDate: '2023-02-16T00:00:00.000Z'
 coverSVG: ../svg/astro/logomark-dark.svg
