@@ -15,8 +15,8 @@ Autumn is a beautiful season filled with vibrant colors, but as the leaves fall,
 
 1. **Standard Cleanup - A Clean Start:** 
 - With our Standard Cleanup option, we offer a hassle-free solution to rid your property of fallen leaves.
-Priced at a minimum of $125.00, including one hour of dedicated work.
-- Additional hours are billed at just $55 each.
+Priced at a minimum of $125.00, including one man hour of dedicated work.
+- Additional man hours are billed at just $55 each.
 - We efficiently blow the leaves to the curb and take care of transporting them to the organic recycling plant.
 - It's the perfect choice for those who prefer a fresh, clean start for their outdoor space.
 
