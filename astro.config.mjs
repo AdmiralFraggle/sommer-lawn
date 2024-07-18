@@ -22,9 +22,7 @@ export default defineConfig({
   site: 'https://sommerlawn.com',
   base: '',
   integrations: [tailwind(), sitemap(), image(), mdx(), alpinejs(), robotsTxt()],
-  experimental: {
-    integrations: true,
-  },
+  experimental: {},
   markdown: {
     extendDefaultPlugins: true,
     remarkPlugins: [
