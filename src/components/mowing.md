@@ -10,7 +10,6 @@ socialImage: ../images/gallery/carousel/profile.png
  
 Maintaining a healthy and beautiful lawn requires more than just occasional mowing. Regular and proper mowing is essential for the health and appearance of your lawn. At Sommer Lawn & Landscape, we offer a professional mowing service that includes mowing, trimming, blowing, and picking up sticks, ensuring that your lawn is healthy and attractive throughout the year.
 
-<img src="https://www.sommerlawn.com/assets/grass%202.fd8eb0ed_Z1pGpTk.png" alt="mowing image" width="800"/>
 
 ## Here are just a few benefits of choosing Sommer Lawn & Landscape for your mowing needs:
 
@@ -33,7 +32,6 @@ Contact us today to schedule your professional mowing service and experience the
 
 
 ## What Sets Us Apart
-<img src="https://www.sommerlawn.com/assets/profile.4d428247_1DIloc.png" alt="drawing" width="800"/>
 
 ### Some things that set us apart:
 1. Fully Licensed & Insured.
@@ -42,6 +40,3 @@ Contact us today to schedule your professional mowing service and experience the
 4. Commercial Grade Mowers With Very Sharp Blades.
 5. Quality Standards Of Service, Communications, Reliability, and Speed.
 6. The Option To Pay With A Credit/Debit Card & Even Set Up Auto Pay. 
-### Learn More About Our Billing Process:
-<a href="https://youtu.be/8MQy5iki0Bg?t=42"> <img src="/assets/mowingthumbnail.e0eec6d0_ZVGnCy.png" alt="drawing" width="900"/> </a>
-### [Learn More About Our Pricing](https://sommerlawn.com/pricing)
