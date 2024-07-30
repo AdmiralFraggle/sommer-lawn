@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/base.astro'
+import { SiteMetadata } from '../config'
+
+const frontmatter = {
+    title: 'Form Demo',
+    description: 'Form demo description.',
+    publishDate: SiteMetadata.buildTime,
+}
+---
+
+<Base frontmatter={frontmatter}>
+    <main>
+        <section
+            class="mb-20 text-gray-800 dark:text-gray-100 mx-auto max-w-7xl"
+        >
+            <div class="block bg-white dark:bg-gray-900 lg:my-8">
+                <form action="/submit" method="POST" data-netlify="true">
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        class="text-gray-800 dark:text-gray-800"
+                    />
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        class="text-gray-800 dark:text-gray-800"
+                    />
+                    <br />
+                    <br />
+                    <label for="answer"
+                        >What is the answer to life, the universe, and
+                        everything?</label
+                    >
+                    <input
+                        type="text"
+                        id="answer"
+                        name="answer"
+                        required
+                        class="text-gray-800 dark:text-gray-800"
+                    />
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</Base>
