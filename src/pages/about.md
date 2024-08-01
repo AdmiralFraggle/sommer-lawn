@@ -7,11 +7,13 @@ coverSVG: ../svg/astro/logomark-dark.svg
 socialImage: ../images/gallery/carousel/profile.png
 ---
 # About The Team
-Sommer Lawn is dedicated to quality and reliable service and communication. Cayden Sommer started his business to fill a deep need for professional and reliable lawncare service in the Overland Park Area. We also love to empower our workers by investing in their skills and character. Interested in joinging the team? Call to learn more about our application process!
+Sommer Lawn is dedicated to quality and reliable service and communication. Cayden Sommer started his business to fill a deep need for professional and reliable lawncare service in the Overland Park Area. We also love to empower our workers by investing in their skills and character. Interested in joinging the team? [click here to fill out an online application](https://sommerlawn.com/jobs)
 <br>
+<img src="https://www.sommerlawn.com/assets/family.cb5f66c0_293G3m.png" alt="drawing" width="800"/>
 
 ## Cayden:
 #### Owner
+<img src="https://www.sommerlawn.com/assets/cayden2.37323618_1x9Byb.png" alt="Cayden" width="300"/>
 
 # 
 Cayden has always had an entrepreneurial spirit. Cayden's love for lawn care started at a young age, as he often assisted his father with gardening and landscaping tasks. As he grew older, he realized his passion for this field and decided to turn his hobby into a thriving business. With his hard work, determination, and dedication, Cayden has built a successful lawn care company that provides top-notch services to clients in the area.
@@ -22,9 +24,23 @@ In his free time, Cayden enjoys spending time with his family and friends, and a
 
 Cayden is proof that with hard work and determination, anyone can turn their dreams into a reality. He is a true inspiration to others, and his love for lawn care and dedication to helping others will continue to make a positive impact in his community.
 
+## Elijah:
+#### Partner
+<img src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.30808-6/243683058_2346797488787150_6863461975409112788_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=_M4CaLjHs4UAX_I-NtO&_nc_ht=scontent.fmkc1-1.fna&oh=00_AfDuiPfFn8OIKyhDGPnUE0rc1A60DRy-X4BTbdaIXv2V9A&oe=63ECB7DC" alt="Image loading" width="200"/>
+
+Meet Elijah, a driven and dedicated partnet at Sommer Lawn & Landscape. Elijah brings his passion for the lawn care industry and his strong work ethic to his role, ensuring that every project is completed with the highest level of excellence.
+
+But beyond his professional accomplishments, Elijah's true passion lies in his faith. As a follower of Christ, he strives to live out his beliefs in every aspect of his life, including his work. He approaches each day with a positive attitude and a servant's heart, always looking for ways to help others and make a difference in his community.
+
+Elijah's leadership skills and commitment to his team have made him a valuable asset to Sommer Lawn & Landscape. He is always willing to go the extra mile to ensure that his team has the support and resources they need to succeed. And his positive, can-do attitude inspires everyone around him to be their best selves.
+
+In his free time, Elijah enjoys spending time with his family and friends, as well as volunteering at his local church. He is a true embodiment of the values he holds dear, and his unwavering dedication to his faith and work make him an inspiration to those around him.
+
+If you're looking for a leader who brings a unique combination of passion, professionalism, and faith to the table, look no further than Elijah. He is a true asset to Sommer Lawn & Landscape and a positive force in his community.
 
 ## Spencer:
-#### Partner
+#### Employee
+<img src="https://www.sommerlawn.com/assets/spencer.475ca811_Pacqf.png" alt="Image loading" width="200"/>
 
 Meet Spencer, a hardworking and driven high school student who is balancing his education and a part-time job at Sommer Lawn & Landscape. Despite his young age, Spencer is already setting his sights on his future, working hard to save up for a car and college.
 
