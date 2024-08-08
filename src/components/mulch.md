@@ -19,10 +19,8 @@ Next, we'll apply the mulch evenly to your garden beds, taking care to avoid dir
 
 Finally, we'll clean up any debris or excess mulch, leaving your garden beds looking beautiful and well-maintained. We take pride in our attention to detail and will always make sure to leave your property looking clean and tidy.
 <br>
-<img src="https://cdn.pixabay.com/photo/2012/12/19/18/12/mulch-70901_1280.jpg" alt="drawing" width="800"/>
 
 ## Why Mulch?
-<img src="https://cdn.pixabay.com/photo/2017/10/02/04/00/fence-2807821_1280.jpg" alt="drawing" width="200"/>
 
 Mulch is a simple yet effective way to enhance the appearance and health of your landscape beds. Made of various organic materials like wood chips, leaves, and bark, mulch provides a host of benefits that help keep your plants healthy, your soil fertile, and your garden looking beautiful.
 
@@ -40,4 +38,3 @@ Aesthetics: Mulch adds an attractive and uniform appearance to your landscape be
 
 At Sommer Lawn & Landscape, we understand the importance of maintaining healthy and beautiful landscape beds. Our professional mulch installation service is designed to provide your plants with the nutrients and protection they need to thrive. Contact us today to schedule a free consultation and experience the benefits of our mulch installation service.
 
-<img src="https://cdn.pixabay.com/photo/2015/12/20/00/51/mulch-1100555_1280.jpg" alt="drawing" width="200"/>
