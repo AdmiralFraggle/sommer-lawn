@@ -2,11 +2,9 @@
 import type { MarkdownInstance } from 'astro'
 import type { Frontmatter } from '../config'
 import { SiteMetadata } from '../config'
-import Base from '../layouts/baselanding.astro'
-import FindOutMore from '../components/mowinglanding.astro'
-import CTA from '../components/cta.astro'
-import Carousel from './carouselreviews.astro'
-import Mowing from '../components/mowing.md'
+import Base from '../layouts/base.astro'
+import Carousel from '../components/carouselreviews.astro'
+
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
   description: SiteMetadata.description,
@@ -14,6 +12,15 @@ const frontmatter: Frontmatter = {
   socialImage: '../images/undraw/undraw_design_inspiration.png',
   publishDate: SiteMetadata.buildTime,
 }
+
+const carouselPages = [
+  { name: 'review 1', image: '../images/gallery/carousel/reviews/review1.png' },
+  { name: 'review 2', image: '../images/gallery/carousel/reviews/review2.png' },
+  { name: 'review 3', image: '../images/gallery/carousel/reviews/review3.png' },
+  { name: 'review 4', image: '../images/gallery/carousel/reviews/review4.png' },
+  { name: 'review 5', image: '../images/gallery/carousel/reviews/review5.png' },
+
+]
 
 const posts = (await Astro.glob(
   './blog/**/*.{md,mdx}'
@@ -26,17 +33,8 @@ const latestPosts = posts
   )
   .filter(post => !post.frontmatter.draft)
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLZ7TYS7JP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FLZ7TYS7JP');
-</script>
 
 <Base frontmatter={frontmatter}>
-  <FindOutMore />
-  <Carousel />
+  <Carousel pages={carouselPages} >
+  </Carousel>
 </Base>
