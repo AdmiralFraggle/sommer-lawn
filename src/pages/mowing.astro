@@ -3,17 +3,12 @@ import type { MarkdownInstance } from 'astro'
 import type { Frontmatter } from '../config'
 import { SiteMetadata } from '../config'
 import Base from '../layouts/base.astro'
-import Hero from '../components/hero.astro'
-import Features from '../components/services.astro'
 import FindOutMore from '../components/mowing.astro'
-import LatestArticles from '../components/latestarticles.astro'
 import CTA from '../components/cta.astro'
-import Services from '../components/services.astro'
 import Carousel from './carousel.astro'
-import Categories from './categories.astro'
-import Testimonials from '../components/testimonials.astro'
-import Youtube from '../components/youtube.astro'
 import Mowing from '../components/mowing.md'
+import Reviews from './carouselreviews.astro'
+
 const frontmatter: Frontmatter = {
   title: SiteMetadata.title,
   description: SiteMetadata.description,
@@ -46,6 +41,7 @@ const latestPosts = posts
 <Base frontmatter={frontmatter}>
   <FindOutMore />
   <Carousel />
+  <Reviews />
   <Mowing />
   <CTA />
 </Base>
