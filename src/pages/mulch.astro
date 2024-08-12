@@ -34,21 +34,12 @@ const latestPosts = posts
   )
   .filter(post => !post.frontmatter.draft)
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLZ7TYS7JP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FLZ7TYS7JP');
-</script>
 
 <Base frontmatter={frontmatter}>
   <FindOutMore />
-  <br/>
-  <br/>
-  <br/>
+  <br />
+  <br />
+  <br />
   <Mulch />
   <CTA />
 </Base>
