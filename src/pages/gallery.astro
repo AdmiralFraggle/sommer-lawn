@@ -9,116 +9,100 @@ import Carousel from './carousel.astro'
 
 const frontmatter = {
   title: 'Gallery',
-  description:
-    'Some examples of our work!',
+  description: 'Some examples of our work!',
   // coverSVG: '../svg/undraw/undraw_contact_us.svg',
   // socialImage: '../images/undraw/undraw_contact_us.png',
   publishDate: SiteMetadata.buildTime,
 }
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLZ7TYS7JP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FLZ7TYS7JP');
-</script>
 
 <Base frontmatter={frontmatter}>
-  </header>
   <main>
     <section class="mb-20 text-gray-800 dark:text-gray-100 mx-auto max-w-7xl">
-  
-<div class="bg-sky-100 dark:bg-sky-900">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-      <h2 class="text-4xl font-extrabold text-sky-800 dark:text-sky-100">
-        Gallery
-      </h2>
-      <div
-        class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"
-      >
-      <HeroImg
-        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="../images/galleryimg/mowing1.png"
-        alt="loading"
-      /> 
-       
-      <HeroImg
-        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="../images/galleryimg/mowing5.png"
-        alt="loading"
-      /> 
-          
-        <HeroImg
-        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="../images/galleryimg/mowing4.png"
-        alt="loading"
-      />
-          
-        <HeroImg
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="../images/galleryimg/mowing3.png"
-      alt="loading"
-     />
-     <HeroImg
-          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/galleryimg/edging.png"
-          alt="loading"
-        /> 
-      
-          <HeroImg
-          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/galleryimg/mowing2.png"
-          alt="loading"
-        />
-        <HeroImg
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="../images/galleryimg/mowing6.png"
-      alt="loading"
-    />
-    <HeroImg
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="../images/galleryimg/mowing7.png"
-      alt="loading"
-    />
-    <HeroImg
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="../images/galleryimg/mowing8.png"
-      alt="loading"
-    />
-          
-      
-      
-    <HeroImg
-            class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="../images/galleryimg/grass 2.png"
-            alt="loading"
-            
-          />
-          <HeroImg
-            class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="../images/galleryimg/weeds.png"
-            alt="loading"
-          /> 
-      
-        <HeroImg
-          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/Leaf Cleanup (2).png"
-          alt="loading"
-        />
-    <HeroImg
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="../images/galleryimg/mowing9.png"
-      alt="loading"
-    />
-      </div>
-    </div>
-  </div>
-</div>
+      <div class="bg-sky-100 dark:bg-sky-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+            <h2 class="text-4xl font-extrabold text-sky-800 dark:text-sky-100">
+              Gallery
+            </h2>
+            <div
+              class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"
+            >
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing1.png"
+                alt="loading"
+              />
 
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing5.png"
+                alt="loading"
+              />
+
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing4.png"
+                alt="loading"
+              />
+
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing3.png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/edging.png"
+                alt="loading"
+              />
+
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing2.png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing6.png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing7.png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing8.png"
+                alt="loading"
+              />
+
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/grass 2.png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/weeds.png"
+                alt="loading"
+              />
+
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/Leaf Cleanup (2).png"
+                alt="loading"
+              />
+              <HeroImg
+                class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/galleryimg/mowing9.png"
+                alt="loading"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </Base>
