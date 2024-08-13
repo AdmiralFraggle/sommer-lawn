@@ -1,7 +1,7 @@
 {
-  "name": "hello-astro",
-  "description": "Hello Astro is a full featured Astro corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.",
-  "version": "4.0.0",
+  "name": "sommer-lawn",
+  "description": "Sommer Lawn is an Astro website and based on the Hello Astro starter theme written in Typescript and TailwindCSS.",
+  "version": "2.0.0",
   "scripts": {
     "dev": "astro dev",
     "clean": "rm -rf node_modules .astro dist",
