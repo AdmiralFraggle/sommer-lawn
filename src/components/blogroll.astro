@@ -1,15 +1,19 @@
 ---
-import type { MarkdownInstance } from 'astro'
-import type { Frontmatter } from '../config'
+import type { CollectionEntry } from 'astro:content'
 import BlogCard from '../components/blogcard.astro'
 
 export interface Props {
-  posts: MarkdownInstance<Frontmatter>[]
+  posts: CollectionEntry<'blog'>[]
 }
 
 const { posts } = Astro.props
 ---
 
-<div class="space-y-12 lg:space-y-0 flex flex-wrap dark:bg-gray-900">
-  {posts.map(post => <BlogCard post={post} />)}
+<div
+  itemprop='mainEntity'
+  itemscope
+  itemtype='https://schema.org/Article'
+  class='flex flex-wrap space-y-12 dark:bg-gray-900 lg:space-y-0'
+>
+  {posts.map((post) => <BlogCard post={post} />)}
 </div>

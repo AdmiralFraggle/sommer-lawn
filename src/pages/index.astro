@@ -1,58 +1,30 @@
 ---
-import type { MarkdownInstance } from 'astro'
-import type { Frontmatter } from '../config'
-import { SiteMetadata } from '../config'
+import type { CollectionEntry } from 'astro:content'
+import { SiteMetadata, getPosts } from '../config'
 import Base from '../layouts/base.astro'
 import Hero from '../components/hero.astro'
-import Features from '../components/services.astro'
+import Features from '../components/features.astro'
 import FindOutMore from '../components/findoutmore.astro'
 import LatestArticles from '../components/latestarticles.astro'
 import CTA from '../components/cta.astro'
-import Services from '../components/services.astro'
-import Carousel from './carouselreviews.astro'
-import Categories from './categories.astro'
-import Testimonials from '../components/testimonials.astro'
-import Youtube from '../components/youtubehome.astro'
-import Video from '../components/video.astro'
+import coverSVG from '../assets/svg/undraw/undraw_design_inspiration.svg'
+import socialImage from '../assets/undraw/undraw_design_inspiration.png'
 
-const frontmatter: Frontmatter = {
+const frontmatter: CollectionEntry<'page'>['data'] = {
   title: SiteMetadata.title,
   description: SiteMetadata.description,
-  coverSVG: '../svg/undraw/undraw_design_inspiration.svg',
-  socialImage: '../images/undraw/undraw_design_inspiration.png',
-  publishDate: SiteMetadata.buildTime,
+  coverSVG: coverSVG,
+  socialImage: socialImage
 }
 
-const posts = (await Astro.glob(
-  './blog/**/*.{md,mdx}'
-)) as MarkdownInstance<Frontmatter>[]
-const latestPosts = posts
-  .sort(
-    (a, b) =>
-      new Date(b.frontmatter.publishDate).valueOf() -
-      new Date(a.frontmatter.publishDate).valueOf()
-  )
-  .filter(post => !post.frontmatter.draft)
+const posts = await getPosts()
 ---
 
-<script id="mcjs">
-  !(function (c, h, i, m, p) {
-    ;(m = c.createElement(h)),
-      (p = c.getElementsByTagName(h)[0]),
-      (m.async = 1),
-      (m.src = i),
-      p.parentNode.insertBefore(m, p)
-  })(
-    document,
-    'script',
-    'https://chimpstatic.com/mcjs-connected/js/users/3ab8ed3616f9aac2c49f9898b/bd5b4399167b3edc3774ff72b.js'
-  )
-</script>
 <Base frontmatter={frontmatter}>
   <Hero />
-  <Services />
-  <Carousel />
+  <Features />
   <FindOutMore />
+  <LatestArticles {posts} />
   <CTA />
-  <Video />
+  <div class='bg-white p-24 dark:bg-black md:p-12'></div>
 </Base>
