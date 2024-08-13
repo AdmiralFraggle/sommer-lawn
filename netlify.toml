@@ -3,5 +3,5 @@
   NODE_VERSION = "20"
 
 [build]
-  command = "pnpm build"
+  command = "pnpm i --frozen-lockfile && pnpm build"
   publish = "dist"
