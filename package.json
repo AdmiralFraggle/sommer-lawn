@@ -2,6 +2,9 @@
   "name": "hello-astro",
   "description": "Hello Astro is a full featured Astro corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.",
   "version": "4.0.0",
+  "engines": {
+  "node": "20.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "clean": "rm -rf node_modules .astro dist",
