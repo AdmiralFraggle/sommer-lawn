@@ -39,7 +39,10 @@ export const NavigationLinks = [
   { name: 'About', href: 'about' },
   { name: 'Contact', href: 'contact' },
   { name: 'Blog', href: 'blog' },
-  { name: 'Docs', href: 'doc/introduction' }
+  { name: 'Docs', href: 'doc/introduction' },
+  { name: 'Services', href: 'services' },
+  { name: 'Mowing', href: 'mowing' },
+  { name: 'Gallery', href: 'gallery' }
 ]
 
 export const PAGE_SIZE = 6
