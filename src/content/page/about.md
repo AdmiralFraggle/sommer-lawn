@@ -1,65 +1,31 @@
 ---
-title: About
-description: Description of Hello Astro Starter
-pubDate: 2023-06-13T00:00:00.000Z
-coverSVG: ../../assets/svg/undraw/undraw_about_me.svg
-socialImage: ../../assets/undraw/undraw_about_me.png
+title: About Us
+description: Why we do what we do.
+pubDate: 2022-08-08T00:00:00.000Z
+coverSVG: ../../assets/svg/astro/logomark-dark.svg
+socialImage: ../../assets/profile.png
 ---
+## Cayden:
 
-This is multi-purpose Astro starter template based on the following:
+#### Owner
 
-- [Astro](https://astro.build/) as a modern static site generator
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailwindCSS](https://tailwindcss.com) and [TailwindUI](https://tailwindui.com)
-- [Iconify](https://iconify.design/)
-- [Hero Patterns](https://heropatterns.com/)
-- [unDraw](https://undraw.co/) for illustrations
-- [Markdown](https://www.markdownguide.org/)
-- [MDX](https://mdxjs.com/)
-- [Markdoc](https://markdoc.dev)
-- [Schema.org](https://schema.org/) and [JSON for Linking Data](https://json-ld.org/), type-checked using [schema-dts](https://github.com/google/schema-dts)
-- [Open Graph](https://ogp.me/) used by [Facebook](https://developers.facebook.com/docs/sharing/webmasters/#markup)
-- [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)
-- [AlpineJS](https://alpinejs.dev)
-- Local full text search using [Lunr](https://lunrjs.com)
-- Math equations using [KaTeX](https://katex.org) via [remark-math and rehype-katex](https://github.com/remarkjs/remark-math)
-- Diagrams using [Mermaid](https://mermaid-js.github.io/mermaid/#/), [Markmap](https://markmap.js.org) and [PlantUML](https://plantuml.com)
-- Open Street Map using [Leaflet](https://leafletjs.com/)
-- [reading-time](https://github.com/ngryman/reading-time)
-- [PhotoSwipe](https://photoswipe.com)
-- [exifr](https://mutiny.cz/exifr/)
-- [Swiper](https://swiperjs.com/)
-- [Remark Emoji](https://github.com/rhysd/remark-emoji)
+Cayden has always had an entrepreneurial spirit. Cayden's love for lawn care started at a young age, as he often assisted his father with gardening and landscaping tasks. As he grew older, he realized his passion for this field and decided to turn his hobby into a thriving business. With his hard work, determination, and dedication, Cayden has built a successful lawn care company that provides top-notch services to clients in the area.
 
-It follows the [JAMstack architecture](https://jamstack.org) by automatically building a static version from the Git repository. The demo is deployed on [Github Pages](https://pages.github.com).
+Aside from his love for lawn care, Cayden is also committed to creating job opportunities for others. He believes in the power of teamwork and recognizes that his business would not be as successful without his employees. He takes pride in providing stable employment and a positive work environment for his team, and is always looking for ways to help them grow and succeed.
 
-Hello Astro can used for any/all of the following:
+In his free time, Cayden enjoys spending time with his family and friends, and also gives back to his community through various charitable initiatives. Most importantly Cayden is a dedicated follower of Jesus Christ and is active in his local church. His passion, drive, and commitment to helping others have earned him a reputation as a young entrepreneur to watch in the future.
 
-- corporate/marketing site
-- blog
-- documentation site
-- portfolio site supporting photo galleries
+Cayden is proof that with hard work and determination, anyone can turn their dreams into a reality. He is a true inspiration to others, and his love for lawn care and dedication to helping others will continue to make a positive impact in his community.
 
-This starter is open source (MIT licence) - fork it and customise for your needs.
+## Spencer:
 
-## Features
+#### Partner
 
-- Author content in a mix of Markdown, MDX and Markdoc
-- Full-featured blog with frontmatter (title, description, author, date, image, tags)
-- High performance low overhead with minimal Javascript (AlpineJS)
-- Full text client based search of blog pages via lunrjs (search index only loaded on first invocation of search on a page)
-- Index page and individual pages for authors, categories and tags, including pagination
-- Support for RSS feed, sitemap and robots.txt
-- SVG design (unDraw, Hero Patterns, Iconify)
-- Support for code syntax highlighting
-- Full SEO support including Open Graph, Twitter Cards and Schema.org via JSON-LD
-- Full support for light and dark UI modes, as well as following system preferences, in accordance to TailwindCSS recommendation
-- Customised 404 error page
-- Display math equations using KaTeX via remark-math/rehype-katex (enclosed in `$`...`$` or `$$`...`$$`)
-- Display Mermaid, Markmap, PlantUML diagrams (authored as a code block with language `mermaid`, `markmap` and `plantuml`)
-- Display map at geo coordinates and zoom level using `Map` component (need to also include `extra: ['map']` in frontmatter to load CSS/JS assets for page)
-- Calculates and show reading time for blog posts
-- CSS/JS assets of external libraries loaded only when needed on a per page and per package basis - no unnecessary bloat
-- Photo gallery and lightbox using PhotoSwipe (including display of EXIF tags)
-- Carousel component using Swiper
-- Documentation pages (modelled after astro docs starter but using Tailwind)
+Meet Spencer, a hardworking and driven high school student who is balancing his education and a part-time job at Sommer Lawn & Landscape. Despite his young age, Spencer is already setting his sights on his future, working hard to save up for a car and college.
+
+Spencer's passion for lawn care started at a young age, just like his brother Cayden, and he is determined to turn his hobby into a career. As a part-time employee at Sommer Lawn & Landscape, Spencer has already shown that he is a dedicated and reliable member of the team. He takes pride in his work and always strives to deliver the best results to his clients.
+
+Aside from his work at Sommer Lawn & Landscape, Spencer is also an excellent student. He balances his job with his studies, always putting in the time and effort to achieve his goals. He recognizes that his education is the foundation for his future success and is determined to make the most of his high school years.
+
+In his free time, Spencer enjoys spending time with his family and friends, as well as participating in outdoor activities such as hiking and camping. He is always looking for ways to further his knowledge in the field, attending industry workshops and conferences whenever he gets the chance.
+
