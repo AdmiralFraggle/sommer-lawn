@@ -7,26 +7,24 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'Sommer Lawn & Landscape',
+  description: 'Quality & Reliable Service',
   author: {
-    name: 'Chris Tham',
-    twitter: '@chris1tham',
-    url: 'https://christham.net',
-    email: 'chris@christham.net',
-    summary: 'Outrageous actualiser.'
+    name: 'Cayden Sommer',
+    url: 'https://sommerlawn.com',
+    email: 'cayden@sommerlawn.com',
+    summary: 'Owner and operator of Sommer Lawn & Landscape'
   },
   org: {
-    name: 'Hello Tham',
-    twitter: '@hellothamcom',
-    url: 'https://hellotham.com',
-    email: 'info@hellotham.com',
+    name: 'Sommer Lawn & Landscape',
+    url: 'https://sommerlawn.com',
+    email: 'cayden@sommerlawn.com',
     summary:
-      'Hello Tham is a boutique management consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.'
+      'Sommer Lawn & Landscape is dedicated to quality and reliable service and communication.'
   },
-  location: 'Rivendell, Middle Earth',
-  latlng: [-33.86785, 151.20732] as [number, number],
-  repository: 'https://github.com/hellotham/hello-astro',
+  location: 'Overland Park, KS',
+  latlng: [38.94371925828973, -94.64324605724325] as [number, number],
+  repository: 'https://github.com/AdmiralFraggle/sommer-lawn',
   buildTime: new Date()
 }
 
@@ -46,9 +44,9 @@ export const NavigationLinks = [
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com/hellotham/hello-astro`
+export const GITHUB_EDIT_URL = `https://github.com/AdmiralFraggle/sommer-lawn`
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
+export const COMMUNITY_INVITE_URL = `https://sommerlawn.com`
 
 export type Sidebar = Record<string, { text: string; link: string }[]>
 
