@@ -2,16 +2,24 @@
 Website for https://sommerlawn.com
 This is an [Astro](https://astro.build) website based on the [Hello Astro](https://github.com/hellotham/hello-astro) starter theme which uses Typescript, TailwindCSS, Markdown and MDX. It follows the [JAMstack architecture](https://jamstack.org) by automatically building a static version from the Git repository.
 
-## Start Development
-- git clone this repo and cd to its directory
+## Development
+### Get Started
+- `git clone` this repo and cd to the repo directory
 - `npm install -g pnpm` Install performant NPM which is required for builds and deployment
 - `pnpm install` Install dependencies
 - `pnpm dev` Run local server for local development
 
-## Deployment to Netlify
-All commits to the main branch are automatically deployed to production on Netlify at https://sommerlawn.com
-- Deploy new features by pushing to a new feature branch which will build a Netlify Deploy Preview.
-- If the Deploy Preview looks good, then merge to the main git branch, which will then automatically deploy to production and make your new changes live on https://sommerlawn.com
+### Adding New Features
+- When adding new features, create a feature branch. E.g: `git checkout -B new-contact-page` and develop from that branch.
+- When local development works, deploy those updates by pushing to the remote feature branch which will build a Netlify Deploy Preview. E.g, with the feature branch checked out: `git push` and then you can check how the Deploy Preview looks.
+- If the Deploy Preview looks good, then you can open a PR and merge to the `main` git branch, which will then automatically deploy to production and make your new changes live on https://sommerlawn.com.
+
+### Notes on Deploying to the Netlify Environment
+- All commits to the main branch are automatically deployed to production on Netlify at https://sommerlawn.com.
+- Builds for deployments to Netlify should be handled in `netlify.toml` and `package.json`, not in the Netlify GUI.
+- Don't upgrade packages unless required.
+- Packages should be handled via `pnpm-lock.yaml` and commited since that is what the production build will use via the `pnpm i --frozen-lockfile && pnpm build` command.
+- Develop with the same version of Node that Netlify will use and specify that in `package.json`.
 
 ## 🧞 Commands
 All commands are run from the root of the project, from a terminal:
@@ -72,7 +80,7 @@ Blog and documentation content are created as collections of Markdown or MDX fil
 
 Any static assets, eg. images, can be placed in the `public/` directory.
 
-## Features
+## Integrations & Features
 Uses the following integrations:
 - @astrojs/mdx
 - @astrojs/markdoc
@@ -126,105 +134,3 @@ In addition, SVG and PNG illustrations sourced from [Undraw](https://undraw.co)
 - [exifr](https://mutiny.cz/exifr/)
 - [Swiper](https://swiperjs.com/)
 - [Remark Emoji](https://github.com/rhysd/remark-emoji)
-
-## Release History
-- 1.0.0: Initial Release
-- 1.0.1: Moved social images to src, improved coverImage processing
-- 1.0.2: Upgrade packages to latest
-- 1.1.0: Update to astro v2.x, now works with node 18 and 19
-- 2.0.0: New version supporting Astro collections! Also clarified that this is a
-  multipurpose theme. Search can now include both Markdown and MDX pages!
-- 2.0.1: Updated screenshots, and improved landing page.
-- 2.1.0: updated to latest packages, fixed dev links, backported features from
-  personal blog, including Next/Prev links, photo gallery support in Markdown,
-  and improved pagination control.
-- 2.2.0: Fixed lint errors, reimplemented map, lightbox and carousel to use
-  leaflet, photoswipe and swiper packages instead of relying on external CDN.
-- 2.2.1: Update to astro 2.0.10, fixed asset loading issue with base
-- 2.3.0: Removed layout from blog and doc content
-- 2.4.0:`@astrojs/images` now support `svg` so no need for special handling
-- 2.4.1: Use rendered frontmatter for blog and doc posts, fixes issue with diagrams not rendering.
-- 2.4.2: Updated packages
-- 3.0.0: Major update:
-  - Use new Astro optimised asset support
-  - new Astro logo
-  - optimised post draft filtering
-  - cleaned up gallery
-  - fixed up SEO errors
-  - cleaned up lint errors
-  - migrated authors and categories to collections and use referential integrity based on Astro 2.5.0
-  - converted social links to a data collection (requires Astro >2.5.0)
-  - updated favicon and header metadata
-  - improve search to include documentation
-- 3.1.0: Enhancement update:
-  - Migrated package manager from yarn to pnpm
-  - Reference base for head links
-  - Added eslint and prettier with plugins
-  - Fixed image attributes error in seo component
-  - Updated tsconfig to match astro strict
-  - Update Katex CSS link
-  - Fixed author not appearing in blog card
-  - Added Markdoc support
-- 3.1.1: Minor update:
-  - Lazy load images
-  - Support Github emoji via remark-emoji
-- 3.1.2: Minor fixes:
-  - Check for null categories
-  - Slightly improved contact page
-  - Improved next/prev processing
-  - Updated packages
-  - Reduce size of search button to accommodate min width
-  - Changed image option for pages from object-contain to object-cover
-  - Fixed site.webmanifest
-- 3.1.3: Minor fixes:
-  - Upgrade to `@astrojs/markdoc` 0.4.x and latest astro
-  - Fixed Props declaration in [slug].astro
-  - disabled Markdoc sample file due to this issue: https://github.com/withastro/astro/issues/7520
-- 3.1.4: Minor enhancement:
-  - Unified Image processing for svg and bitmaps
-  - Enabled ViewTransitions
-- 3.1.5: Minor enhancements:
-  - Upgrade to latest version of packages
-  - Fixed minor astro check error
-- 3.2.0: Major enhancement:
-  - Updated to Astro 3.x
-  - Implement permissive Content Security Policy
-- 3.2.1: Minor enhancement:
-  - Updated packages, resolved astro check errors
-- 3.2.2: Minor enhancements:
-  - Updated packages
-  - Fixed json.ts return type for search
-- 3.2.3: Maintenance:
-  - Fixed mermaid v9 no longer working by upgradig to latest version of mermaid
-  - Upgrade packages
-- 3.2.4: Minor enhancements:
-  - Upgrade to Astro 4.x
-- 3.2.5: Minor enhancements:
-  - Upgrade packages
-  - Remove mermaid.initialize()
-- 3.2.6: Maintenance:
-  - Disable ViewTransition as it does not work with mermaid
-- 3.3.0: Maintenance:
-  - Upgraded to latest packages and astro-icon 1.x
-- 3.3.1: Maintenance:
-  - Upgraded to latest packages and fixed astro check errors
-- 3.3.2: Maintenance:
-  - Upgraded to latest packages
-  - Fixed search not working due to stricter alpine checking
-  - Migrated to standard astro tsconfig.json
-  - Fixed astro check errors
-- 3.4.0: Minor changes:
-  - Updated packages
-  - Replaced heroicons to v2
-  - Improved RSS and search indexes to include author name and email
-  - Make BlogHero accept post as props rather than frontmatter
-  - Moved Markdown pages to content collection
-  - Eliminated Frontmatter type
-- 4.0.0: Major changes:
-  - Updated packages
-  - Removed @types/photoswipe and photoswipe tsconfig
-  - Moved to RSS schema
-  - getPosts() function
-  - schema tags
-  - automatically generated sidebar links
-  - improved RSS and search metadata

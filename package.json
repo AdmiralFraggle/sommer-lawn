@@ -1,6 +1,6 @@
 {
   "name": "sommer-lawn",
-  "description": "Hello Astro is a full featured Astro corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.",
+  "description": "Website for sommerlawn.com using Astro",
   "version": "2.0.0",
   "engines": {
     "node": "20.x"
