@@ -1,14 +1,11 @@
 ---
 title: About Us
-description: Why we do what we do.
+description: Why we do what we do
 pubDate: 2022-08-08T00:00:00.000Z
 coverSVG: ../../assets/svg/astro/logomark-dark.svg
 socialImage: ../../assets/svg/astro/logomark-dark.svg
 ---
-## Cayden:
-
-#### Owner
-
+## Cayden (owner)
 Cayden has always had an entrepreneurial spirit. Cayden's love for lawn care started at a young age, as he often assisted his father with gardening and landscaping tasks. As he grew older, he realized his passion for this field and decided to turn his hobby into a thriving business. With his hard work, determination, and dedication, Cayden has built a successful lawn care company that provides top-notch services to clients in the area.
 
 Aside from his love for lawn care, Cayden is also committed to creating job opportunities for others. He believes in the power of teamwork and recognizes that his business would not be as successful without his employees. He takes pride in providing stable employment and a positive work environment for his team, and is always looking for ways to help them grow and succeed.
@@ -17,9 +14,7 @@ In his free time, Cayden enjoys spending time with his family and friends, and a
 
 Cayden is proof that with hard work and determination, anyone can turn their dreams into a reality. He is a true inspiration to others, and his love for lawn care and dedication to helping others will continue to make a positive impact in his community.
 
-## Spencer:
-
-#### Partner
+## Spencer (partner)
 
 Meet Spencer, a hardworking and driven high school student who is balancing his education and a part-time job at Sommer Lawn & Landscape. Despite his young age, Spencer is already setting his sights on his future, working hard to save up for a car and college.
 
