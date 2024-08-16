@@ -3,7 +3,7 @@ title: About Us
 description: Why we do what we do.
 pubDate: 2022-08-08T00:00:00.000Z
 coverSVG: ../../assets/svg/astro/logomark-dark.svg
-socialImage: ../../assets/profile.png
+socialImage: ../../assets/svg/astro/logomark-dark.svg
 ---
 ## Cayden:
 
