@@ -4,9 +4,11 @@ import type { CollectionEntry } from 'astro:content'
 import coverSVG from '../assets/svg/astro/logomark-dark.svg'
 import socialImage from '../assets/svg/astro/logomark-dark.svg'
 import MowingHero from '../components/mowingHero.astro'
+import Quote from '../components/quote.astro'
 import MowingCarousel from '../components/carousel.astro'
 import ReviewsCarousel from '../components/carousel.astro'
 import CTA from '../components/cta.astro'
+import MowingService from '../content/page/mowingService.md'
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
   title: 'Mowing',
@@ -89,7 +91,9 @@ export const reviewsCarouselPages = [
 
 <Base frontmatter={frontmatter} schema='MowingPage'>
   <MowingHero />
+  <Quote />
   <MowingCarousel pages={mowingCarouselPages}/>
   <ReviewsCarousel pages={reviewsCarouselPages}/>
+  <MowingService />
   <CTA />
 </Base>
