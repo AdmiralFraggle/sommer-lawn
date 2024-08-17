@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon/components'
 
 const features = [
   {
@@ -38,8 +38,6 @@ const features = [
     href: '/leafremoval',
     
   },
- 
- 
   {
     name: 'Bed Maintenance',
     description:
@@ -50,58 +48,39 @@ const features = [
 ]
 ---
 
-<div class="py-12 bg-gray-100 dark:bg-gray-800">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
+<div class='bg-zinc-200 py-12 dark:bg-gray-800'>
+  <div class='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+    <div class='lg:text-center'>
       <h2
-        class="text-base text-sky-800 dark:text-sky-300 font-semibold tracking-wide uppercase"
+        class='text-base font-semibold uppercase tracking-wide text-sky-800 dark:text-sky-300'
       >
         Sommer Lawn & Landscape
       </h2>
       <p
-        class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl"
+        class='mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl'
       >
         Services
       </p>
-      <p
-        class="mt-4 max-w-2xl text-xl text-gray-600 dark:text-gray-300 lg:mx-auto"
-      >
+      <p class='mt-4 max-w-2xl text-xl text-gray-600 dark:text-gray-300 lg:mx-auto'>
         Sommer Lawn & Landscape offer a range of services
         listed below. We offer FREE ESTIMATES for all services provided.
       </p>
     </div>
 
-    <div class="mt-10">
-      <dl
-        class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"
-      >
+    <div class='mt-10'>
+      <dl class='space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0'>
         {
-          features.map(feature => (
-            <div class="relative">
+          features.map((feature) => (
+            <div class='relative'>
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-500 dark:bg-sky-400 text-white dark:text-black">
-                  <Icon
-                    class="h-6 w-6"
-                    aria-hidden="true"
-                    pack="heroicons-outline"
-                    name={feature.icon}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href={feature.href}
-                  />
+                <div class='absolute flex h-12 w-12 items-center justify-center rounded-md bg-sky-500 text-white dark:bg-sky-400 dark:text-black'>
+                  <Icon class='h-6 w-6' aria-hidden='true' name={'heroicons:' + feature.icon} />
                 </div>
-                <a
-              href={feature.href}
-              class="ml-3 text-sky-600 hover:text-blue-600 dark:text-sky-300 dark:hover:text-blue-600"
-              rel="noopener noreferrer"
-              target="_blank">
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900 dark:text-gray-200 hover:text-blue-600">
+                <p class='ml-16 text-lg font-medium leading-6 text-gray-900 dark:text-gray-200'>
                   {feature.name}
                 </p>
-              </a>
-
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-600 dark:text-gray-400">
+              <dd class='ml-16 mt-2 text-base text-gray-600 dark:text-gray-400'>
                 {feature.description}
               </dd>
             </div>

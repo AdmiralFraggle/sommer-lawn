@@ -1,17 +1,89 @@
-# hello-astro
+# Sommer Lawn
+Website for https://sommerlawn.com
+This is an [Astro](https://astro.build) website based on the [Hello Astro](https://github.com/hellotham/hello-astro) starter theme which uses Typescript, TailwindCSS, Markdown and MDX. It follows the [JAMstack architecture](https://jamstack.org) by automatically building a static version from the Git repository.
 
-Hello Astro is a full featured [Astro](https://astro.build) corporate/marketing/blog starter theme written in Typescript and TailwindCSS. It supports Markdown and MDX based pages and blog posts.
+## Development
+### Get Started
+- `git clone` this repo and cd to the repo directory
+- `npm install -g pnpm` Install performant NPM which is required for builds and deployment
+- `pnpm install` Install dependencies
+- `pnpm dev` Run local server for local development
 
-![Light](https://github.com/hellotham/hello-astro/raw/main/screenshot-light.png)
+### Adding New Features
+- When adding new features, create a feature branch. E.g: `git checkout -B new-contact-page` and develop from that branch.
+- When local development works, deploy those updates by pushing to the remote feature branch which will build a Netlify Deploy Preview. E.g, with the feature branch checked out: `git push` and then you can check how the Deploy Preview looks.
+- If the Deploy Preview looks good, then you can open a PR and merge to the `main` git branch, which will then automatically deploy to production and make your new changes live on https://sommerlawn.com.
 
-![Dark](https://github.com/hellotham/hello-astro/raw/main/screenshot-dark.png)
+### Notes on Deploying to the Netlify Environment
+- All commits to the main branch are automatically deployed to production on Netlify at https://sommerlawn.com.
+- Builds for deployments to Netlify should be handled in `netlify.toml` and `package.json`, not in the Netlify GUI.
+- Don't upgrade packages unless required.
+- Packages should be handled via `pnpm-lock.yaml` and commited since that is what the production build will use via the `pnpm i --frozen-lockfile && pnpm build` command.
+- Develop with the same version of Node that Netlify will use and specify that in `package.json`.
 
-![Lighthouse](https://github.com/hellotham/hello-astro/raw/main/lighthouse.png)
+## 🧞 Commands
+All commands are run from the root of the project, from a terminal:
 
+### PNPM & Astro
+| Command             | Action                                             |
+| :------------------ | :------------------------------------------------- |
+| `pnpm install`      | Installs dependencies                              |
+| `pnpm dev`          | Starts local dev server at `localhost:3000`        |
+| `pnpm build`        | Build your production site to `./dist/`            |
+| `pnpm preview`      | Preview your build locally, before deploying       |
+| `pnpm lint`         | Pretty print the source code                       |
+| `pnpm check`        | Check the source code for errors                   |
+| `pnpm astro ...`    | Run CLI commands like `astro add`, `astro preview` |
+| `pnpm astro --help` | Get help using the Astro CLI                       |
+
+### Netlify CLI
+Optionally, you can install the Netlify CLI to manually push deploy previews and use other Netlify features
+`brew install netlify-cli`
+
+## 🚀 Project Structure
+```text
+/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── image.png
+│   │   └── gallery/
+│   │       └── gallery-name/
+│   │           └── image.jpg
+│   ├── components/
+│   │   └── header.astro
+│   ├── content/
+│   │   ├── blog/
+│   │   |   └── 2022-08-01-post.md
+│   │   ├── doc/
+│   │   |   └── documentation-page.md
+|   │   └── config.ts
+│   ├── layouts/
+│   │   ├── base.astro
+│   │   ├── blog.astro
+│   │   └── doc.astro
+│   ├── pages/
+│   │   ├── index.astro
+│   │   └── contact.astro
+│   └── config.ts
+└── package.json
+```
+
+Astro looks for `.astro`, `.md` or `.mdx` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+`src/components/` is where we put any Astro components and similarly `src/layouts/` for layouts.
+
+Images can be placed in `src/assets/`.
+
+Blog and documentation content are created as collections of Markdown or MDX files in `src/content`.
+
+Any static assets, eg. images, can be placed in the `public/` directory.
+
+## Integrations & Features
 Uses the following integrations:
-
 - @astrojs/mdx
-- @astrojs/image
+- @astrojs/markdoc
 - @astrojs/sitemap
 - @astrojs/rss
 - @astrojs/tailwind
@@ -21,10 +93,6 @@ Uses the following integrations:
 - astro-robots-txt
 
 In addition, SVG and PNG illustrations sourced from [Undraw](https://undraw.co)
-
-This project initially started as a bare bones port of [hello-gatsby-starter](https://github.com/hellotham/hello-gatsby-starter), but now contains more features (light/dark modes, category pages, search, diagrams, math and more!)
-
-## Features
 
 - Full-featured blog with frontmatter (title, description, author, date, image, tags)
 - High performance low overhead with minimal Javascript (AlpineJS)
@@ -45,10 +113,7 @@ This project initially started as a bare bones port of [hello-gatsby-starter](ht
 - Carousel component using Swiper
 - Documentation pages (modelled after astro docs starter but using Tailwind)
 
-## External Packages 
-
-The start uses the following external packages:
-
+## External Packages
 - [Astro](https://astro.build/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com) and [TailwindUI](https://tailwindui.com)
@@ -68,59 +133,4 @@ The start uses the following external packages:
 - [PhotoSwipe](https://photoswipe.com)
 - [exifr](https://mutiny.cz/exifr/)
 - [Swiper](https://swiperjs.com/)
-
-It follows the [JAMstack architecture](https://jamstack.org) by automatically building a static version from the Git repository. The demo is deployed on Github Pages.
-
-## 🚀 Project Structure
-
-Inside this starter, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── header.astro
-│   ├── images/
-│   │   └── image.png
-│   ├── layouts/
-│   │   └── base.astro
-│   ├── pages/
-│   │   ├── index.astro
-│   │   └── blog/
-│   │       └── 2022-08-01-post.md
-│   ├── svg/
-│   │   └── image.svg
-│   └── config.ts
-└── package.json
-```
-
-Astro looks for `.astro`, `.md` or `.mdx` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-`src/components/` is where we put any Astro components and similarly `src/layouts/` for layouts.
-
-Images can be placed in `src/images/` or `src/svg/` depending on type.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command             | Action                                             |
-| :------------------ | :------------------------------------------------- |
-| `yarn`              | Installs dependencies                              |
-| `yarn dev`          | Starts local dev server at `localhost:3000`        |
-| `yarn build`        | Build your production site to `./dist/`            |
-| `yarn preview`      | Preview your build locally, before deploying       |
-| `yarn format`       | Pretty print the source code                       |
-| `yarn lint`         | Check the source code for errors                   |
-| `yarn astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `yarn astro --help` | Get help using the Astro CLI                       |
-
-## Release History
-
-- 1.0.0: Initial Release
-- 1.0.1: Moved social images to src, improved coverImage processing
-- 1.0.2: Upgrade packages to latest
+- [Remark Emoji](https://github.com/rhysd/remark-emoji)

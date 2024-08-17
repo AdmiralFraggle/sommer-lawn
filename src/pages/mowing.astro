@@ -1,38 +1,99 @@
 ---
-import type { MarkdownInstance } from 'astro'
-import type { Frontmatter } from '../config'
-import { SiteMetadata } from '../config'
 import Base from '../layouts/base.astro'
-import FindOutMore from '../components/mowing.astro'
+import type { CollectionEntry } from 'astro:content'
+import coverSVG from '../assets/svg/astro/logomark-dark.svg'
+import socialImage from '../assets/svg/astro/logomark-dark.svg'
+import MowingHero from '../components/mowingHero.astro'
+import Quote from '../components/quote.astro'
+import MowingCarousel from '../components/carousel.astro'
+import ReviewsCarousel from '../components/carousel.astro'
 import CTA from '../components/cta.astro'
-import Carousel from './carousel.astro'
-import Mowing from '../components/mowing.md'
-import Reviews from './carouselreviews.astro'
+import MowingService from '../content/page/mowingService.md'
 
-const frontmatter: Frontmatter = {
-  title: SiteMetadata.title,
-  description: SiteMetadata.description,
-  coverSVG: '../svg/undraw/undraw_design_inspiration.svg',
-  socialImage: '../images/undraw/undraw_design_inspiration.png',
-  publishDate: SiteMetadata.buildTime,
+const frontmatter: CollectionEntry<'page'>['data'] = {
+  title: 'Mowing',
+  description: 'Our mowing services',
+  coverSVG: coverSVG,
+  socialImage: socialImage
 }
+export const mowingCarouselPages = [
+  {
+    name: '1st',
+    image: '../assets/gallery/carousel/mowing/mowing1.png',
+    title: '• Mowing • Leaf Removal • Cleanups',
+  },
+  {
+    name: '2nd',
+    image: '../assets/gallery/carousel/mowing/mowing2.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  },
+  {
+    name: '3rd',
+    image: '../assets/gallery/carousel/mowing/mowing3.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  },
+  {
+    name: '4th',
+    image: '../assets/gallery/carousel/mowing/mowing4.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  },
+  {
+    name: '5th',
+    image: '../assets/gallery/carousel/mowing/mowing5.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  },
+  {
+    name: '6th',
+    image: '../assets/gallery/carousel/mowing/mowing6.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  },
+  {
+    name: '7th',
+    image: '../assets/gallery/carousel/mowing/mowing7.png',
+    title: '• Mowing • Leaf Removal • Cleanups'
+  }
+]
 
-const posts = (await Astro.glob(
-  './blog/**/*.{md,mdx}'
-)) as MarkdownInstance<Frontmatter>[]
-const latestPosts = posts
-  .sort(
-    (a, b) =>
-      new Date(b.frontmatter.publishDate).valueOf() -
-      new Date(a.frontmatter.publishDate).valueOf()
-  )
-  .filter(post => !post.frontmatter.draft)
+export const reviewsCarouselPages = [
+  {
+    name: '1st',
+    image: '../assets/gallery/carousel/reviews/review1.png',
+    title: 'What Our Customers Say'
+  },
+  {
+    name: '2nd',
+    image: '../assets/gallery/carousel/reviews/review2.png',
+    title: 'What Our Customers Say'
+  },
+  {
+    name: '3rd',
+    image: '../assets/gallery/carousel/reviews/review3.png',
+    title: 'What Our Customers Say'
+  },
+  {
+    name: '4th',
+    image: '../assets/gallery/carousel/reviews/review4.png',
+    title: 'What Our Customers Say'
+  },
+  {
+    name: '5th',
+    image: '../assets/gallery/carousel/reviews/review5.png',
+    title: 'What Our Customers Say'
+  },
+  {
+    name: '6th',
+    image: '../assets/gallery/carousel/reviews/review6.png',
+    title: 'What Our Customers Say'
+  },
+]
+
 ---
 
-<Base frontmatter={frontmatter}>
-  <FindOutMore />
-  <Carousel />
-  <Reviews />
-  <Mowing />
+<Base frontmatter={frontmatter} schema='MowingPage'>
+  <MowingHero />
+  <Quote />
+  <MowingCarousel pages={mowingCarouselPages}/>
+  <ReviewsCarousel pages={reviewsCarouselPages}/>
+  <MowingService />
   <CTA />
 </Base>
