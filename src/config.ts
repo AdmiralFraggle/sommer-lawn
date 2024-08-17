@@ -19,6 +19,7 @@ export const SiteMetadata = {
     name: 'Sommer Lawn & Landscape',
     url: 'https://sommerlawn.com',
     email: 'cayden@sommerlawn.com',
+    phone: '(913) 225-7717',
     summary:
       'Sommer Lawn & Landscape is dedicated to quality and reliable service and communication.'
   },
