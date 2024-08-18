@@ -1,5 +1,5 @@
 # Sommer Lawn
-Website for https://sommerlawn.com
+This is the repo for the https://sommerlawn.com website
 This is an [Astro](https://astro.build) website based on the [Hello Astro](https://github.com/hellotham/hello-astro) starter theme which uses Typescript, TailwindCSS, Markdown and MDX. It follows the [JAMstack architecture](https://jamstack.org) by automatically building a static version from the Git repository and deploying to [Netlify](https://app.netlify.com).
 
 ## Development
