@@ -1,0 +1,38 @@
+name: Test Netlify Build
+
+on:
+  # Trigger the workflow every time you push to any branch
+  push:
+    # Allows you to run this workflow manually from the Actions tab on GitHub.
+    branches:
+      - '*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Checkout your repository using git
+      uses: actions/checkout@v3
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 9
+      
+    - name: Extract build command from netlify.toml
+      id: extract-build-command
+      run: |
+        BUILD_COMMAND=$(sed -n '/^\[build\]/,/^\[.*\]/ s/^\s*command\s*=\s*"\(.*\)"/\1/p' netlify.toml)
+        echo "BUILD_COMMAND=$BUILD_COMMAND" >> $GITHUB_OUTPUT
+      
+    - name: Run build command from netlify.toml
+      run: ${{ steps.extract-build-command.outputs.BUILD_COMMAND }}
+
+    
