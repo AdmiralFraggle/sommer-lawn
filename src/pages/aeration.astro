@@ -5,10 +5,9 @@ import coverSVG from '../assets/svg/astro/logomark-dark.svg'
 import socialImage from '../assets/svg/astro/logomark-dark.svg'
 import AreationHero from '../components/aerationHero.astro'
 import Quote from '../components/aerationquote.astro'
-import MowingCarousel from '../components/carousel.astro'
 import ReviewsCarousel from '../components/carousel.astro'
 import CTA from '../components/cta.astro'
-import MowingService from '../content/page/mowingService.md'
+import MowingService from '../content/page/aeration.md'
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
   title: 'Mowing',
@@ -92,8 +91,6 @@ export const reviewsCarouselPages = [
 <Base frontmatter={frontmatter} schema='MowingPage'>
   <AreationHero />
   <Quote />
-  <MowingCarousel pages={mowingCarouselPages}/>
-  <ReviewsCarousel pages={reviewsCarouselPages}/>
   <MowingService />
   <CTA />
 </Base>
