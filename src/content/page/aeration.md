@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/page.astro
 title: Aeration
-description: 
+description: "Core Aeration is the process of removing small plugs of soil to reduce compaction and improve airflow, water absorption, and nutrient delivery to the roots. "
 publishDate: '2023-02-16T00:00:00.000Z'
 # coverSVG: ../../assets/svg/astro/logomark-dark.svg
 # socialImage: ../../assets/svg/astro/logomark-dark.svg
