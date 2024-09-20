@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/base.astro'
+import type { CollectionEntry } from 'astro:content'
+import coverSVG from '../assets/svg/astro/logomark-dark.svg'
+import socialImage from '../assets/svg/astro/logomark-dark.svg'
+import LightingHero from '../components/lightingHero.astro'
+import Quote from '../components/aerationquote.astro'
+import CTA from '../components/cta.astro'
+
+const frontmatter: CollectionEntry<'page'>['data'] = {
+  title: 'Mowing',
+  description: 'Our mowing services',
+  coverSVG: coverSVG,
+  socialImage: socialImage
+}
+
+
+---
+
+<Base frontmatter={frontmatter} schema='MowingPage'>
+  <LightingHero />
+  <Quote />
+  <CTA />
+</Base>
