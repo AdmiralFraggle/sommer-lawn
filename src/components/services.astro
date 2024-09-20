@@ -71,7 +71,8 @@ const features = [
       <dl class='space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0'>
         {
           features.map((feature) => (
-            <div class='relative'>
+          <a href={feature.href}>
+          <div class='relative'>
               <dt>
                 <div class='absolute flex h-12 w-12 items-center justify-center rounded-md bg-sky-500 text-white dark:bg-sky-400 dark:text-black'>
                   <Icon class='h-6 w-6' aria-hidden='true' name={'heroicons:' + feature.icon} />
@@ -84,6 +85,7 @@ const features = [
                 {feature.description}
               </dd>
             </div>
+          </a>  
           ))
         }
       </dl>
