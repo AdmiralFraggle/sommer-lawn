@@ -18,9 +18,6 @@ const { frontmatter, schema = 'WebPage' } = Astro.props
 <!doctype html>
 <html lang='en' itemscope itemtype={`https://schema.org/${schema}`}>
   <head>
-    <!-- Zoho PageSense -->
-    <script src="https://cdn.pagesense.io/js/dundermifflin/33bf04a325e64834b855093d1cb2432c.js"></script>
-    <!-- End Zoho PageSense -->
     <meta charset='UTF-8' />
     <!-- <meta
       http-equiv='Content-Security-Policy'
@@ -71,6 +68,9 @@ const { frontmatter, schema = 'WebPage' } = Astro.props
       )
     }
     <slot name='in-head' />
+    <!-- Zoho PageSense -->
+    <script src="https://cdn.pagesense.io/js/dundermifflin/33bf04a325e64834b855093d1cb2432c.js"></script>
+    <!-- End Zoho PageSense -->
   </head>
   <body class='dark:bg-gray-900'>
     <Header />
@@ -91,5 +91,8 @@ const { frontmatter, schema = 'WebPage' } = Astro.props
         </script>
       )
     }
+    <!-- SalesIQ -->
+    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq16ca5c8f240e51900cd5d494077f441aa8f33eee0df17c5b73009edc7a47bf2f" defer></script>
+    <!-- End SalesIQ -->
   </body>
 </html>
